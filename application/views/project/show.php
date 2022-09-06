@@ -10,5 +10,6 @@
        <p><?php echo $project->nombre;?></p>
        <b class="text-muted">Apellido:</b>
        <p><?php echo $project->apellido;?></p>
+       
     </div>
 </div>

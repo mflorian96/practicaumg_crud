@@ -13,7 +13,7 @@ class Project extends CI_Controller {
   public function index()
   {
     $data['projects'] = $this->project->get_all();
-    $data['title'] = "CodeIgniter Project Manager";
+    $data['title'] = "Alumnos UMG 2022";
     $this->load->view('layout/header');       
     $this->load->view('project/index',$data);
     $this->load->view('layout/footer');

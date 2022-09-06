@@ -2,7 +2,7 @@
 <div class="card">
     <div class="card-header">
         <a class="btn btn-outline-primary" href="<?php echo base_url('project/create/');?>"> 
-            Crear Nuevo Proyecto
+            Crear Nuevo
         </a>
     </div>
     <div class="card-body">
@@ -17,7 +17,7 @@
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Direccion</th>
-                <th>Movil</th>
+                <th>telefono</th>
                 <th>Email</th>
                 <th>Fecha de creacion</th>
                 <th>Usuario</th>
