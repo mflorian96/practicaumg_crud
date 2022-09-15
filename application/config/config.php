@@ -3,6 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $config['base_url'] = 'http://localhost/codeigniter_crud/';
 
+//$config['base_url'] = 'http://localhost/codeigniter_login/';
+
 $config['index_page'] = 'index.php';
 
 $config['uri_protocol']	= 'REQUEST_URI';
