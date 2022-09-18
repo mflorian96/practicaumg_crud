@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$config['base_url'] = 'http://localhost/codeigniter_crud/';
+//$config['base_url'] = 'http://localhost/codeigniter_crud/';
 
-//$config['base_url'] = 'http://localhost/codeigniter_login/';
+$config['base_url'] = 'http://localhost/practicaumg_crud/';//Nos muestra predeterminadamente el login
 
 $config['index_page'] = 'index.php';
 

@@ -2,18 +2,20 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>CodeIgniter Login</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>bootstrap/css/bootstrap.min.css">
-</head>
+	<title>Practica UMG</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.min.js" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	</head>
 <body>
 <div class="container">
-	<h1 class="page-header text-center">CodeIgniter Login with Session</h1>
-	<div class="row">
+	<br>
+	<div class="row" align="center">
 		<div class="col-sm-4 col-sm-offset-4">
-			<div class="login-panel panel panel-primary">
+			<div class="login-panel panel panel-primary" aling= "center">
 		        <div class="panel-heading">
-		            <h3 class="panel-title"><span class="glyphicon glyphicon-lock"></span> Login
-		            </h3>
+		            <h3 class="panel-title"><span class="glyphicon glyphicon-lock"></span> Iniciar Sesión</h3>
+					<br>
 		        </div>
 		    	<div class="panel-body">
 		        	<form method="POST" action="<?php echo base_url(); ?>index.php/user/login">

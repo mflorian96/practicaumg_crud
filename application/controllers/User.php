@@ -37,10 +37,11 @@ class User extends CI_Controller {
 		}
 		else{
 			header('location:'.base_url().$this->index());
-			$this->session->set_flashdata('error','Invalid login. User not found');
+			$this->session->set_flashdata('error','Usuario Invalido. Pueda que no esté Registrado');
 		} 
 	}
  
+	//Utilice esta funcion para redireccionar a la vista index.php
 	public function home(){
 		//load session library
 		$this->load->library('session');

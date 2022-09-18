@@ -55,5 +55,8 @@
             </tr>
             <?php } ?>
         </table>
+        
     </div>
+    
 </div>
+<a href="<?php echo base_url(); ?>index.php/user/logout" class="btn btn-danger">Salir</a>

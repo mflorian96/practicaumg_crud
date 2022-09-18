@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>CodeIgniter Login</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>bootstrap/css/bootstrap.min.css">
+	<!--<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>bootstrap/css/bootstrap.min.css">-->
 </head>
 <body>
 <div class="container">
